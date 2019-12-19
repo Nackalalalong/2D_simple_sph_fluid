@@ -1,0 +1,35 @@
+<html>
+	<head>
+		<title>My first three.js app</title>
+		<style>
+			body { margin: 0; }
+			canvas { width: 100%; height: 100% }
+		</style>
+		<link rel="stylesheet" href="index.css">
+	</head>
+	<body>
+		<div class="toolbar">
+			<div id="gravity">
+				<span >gravity direction</span>
+				<input type="radio" name="g" value="-x"><span>-x</span>
+				<input type="radio" name="g" value="+x"><span>+x</span>
+				<input type="radio" name="g" value="-y" checked><span>-y</span>
+				<input type="radio" name="g" value="+y"><span>+y</span>
+			</div>
+			<div>
+				<span>valve VX</span>
+				<input type="range" id="valve-v-x">
+				<span id="valve-v-x-text"></span>
+			</div>
+			<div>
+				<span>valve VY</span>
+				<input type="range" id="valve-v-y">
+				<span id="valve-v-y-text"></span>
+			</div>
+		</div>
+		
+		<script src="three.js"></script>
+		<script src="sph.js"></script>
+		<script src="index.js"></script>
+	</body>
+</html>

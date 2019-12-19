@@ -1,0 +1,17 @@
+.toolbar {
+    position: absolute;
+    top: 10;
+    left: 10;
+}
+
+.toolbar div {
+    margin-top: 10px;
+}
+
+#gravity  * {
+    position: relative;
+}
+
+span {
+    color: white;
+}
